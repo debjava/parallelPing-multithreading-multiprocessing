@@ -2,7 +2,7 @@ from multiprocessing import Pool
 
 from util import FileUtil, PingUtil
 
-NO_OF_PROCESS = 200
+NO_OF_PROCESS = 20
 
 def getIPPingStatus(ip):
     flag = PingUtil.isIPReachable(ip);
